@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg22"
+   xml:space="preserve"
+   viewBox="0 0 1024 768"
+   y="0px"
+   x="0px"
+   version="1.1"><metadata
+     id="metadata26"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><style
+     id="style2">
+#c1 {
+	transform: scale(0);
+	opacity: 0;
+	transform-origin: 50% 50%;
+	animation: pulse 4s cubic-bezier(.5,.5,0,1) infinite;	
+}
+
+#c2 {
+	transform: scale(0);
+	opacity: 0;
+	transform-origin: 50% 50%;
+	animation: pulse 4s 0.75s cubic-bezier(.5,.5,0,1) infinite;
+}
+
+#c3 {
+	transform: scale(0);
+	opacity: 0;
+	transform-origin: 50% 50%;
+	animation: pulse 4s 1.5s cubic-bezier(.5,.5,0,1) infinite;
+}
+
+@keyframes pulse {
+	
+	12% {
+		opacity: 0.3;
+	}
+	
+	50% {
+		transform: scale(1);
+	}
+	
+	100% {
+		transform: scale(1);
+	}
+	
+}
+</style><defs
+     id="defs6"><clipPath
+       id="clip-path"><rect
+         y="0"
+         x="0"
+         height="100"
+         width="1024"
+         id="clip" /></clipPath></defs><circle
+     fill="none"
+     stroke-width="10"
+     stroke="#5ce57f"
+     r="370"
+     cy="384"
+     cx="512"
+     id="c1" /><circle
+     fill="none"
+     stroke-width="10"
+     stroke="#6cc783"
+     r="370"
+     cy="384"
+     cx="512"
+     id="c2" /><circle
+     fill="none"
+     stroke-width="10"
+     stroke="#7ba987"
+     r="370"
+     cy="384"
+     cx="512"
+     id="c3" /><g
+     id="fade"><g
+       style="stroke-width:0;stroke-miterlimit:2"
+       stroke-miterlimit="2"
+       id="logo-group"><path
+         d="m 258.6,358.8 h -3.672 v 43.776 L 220.656,358.8 h -3.096 v 50.4 h 3.672 v -43.776 l 34.344,43.776 h 3.024 z"
+         style="font-variant-ligatures:none;fill:#5ce57f"
+         id="path182392" /><path
+         d="m 328.82,381.98 h -32.616 v 3.24 h 32.616 z m 0,-23.184 h -32.616 v 3.312 h 32.616 z m -32.616,47.088 v 3.312 h 32.616 v -3.312 z"
+         style="font-variant-ligatures:none;fill:#62da81"
+         id="path182394" /><path
+         d="m 395.34,409.2 h 4.32 l -19.368,-26.064 18,-24.336 h -4.104 L 378.132,380.472 362.076,358.8 h -4.32 l 18,24.408 -19.368,25.992 h 4.32 l 17.28,-23.328 z"
+         style="font-variant-ligatures:none;fill:#68cf82"
+         id="path182396" /><path
+         d="m 459.78,409.2 h 4.32 l -19.368,-26.064 18,-24.336 h -4.104 L 442.572,380.472 426.516,358.8 h -4.32 l 18,24.408 -19.368,25.992 h 4.32 l 17.28,-23.328 z"
+         style="font-variant-ligatures:none;fill:#6ec384"
+         id="path182398" /><path
+         d="m 528.61,384.22 v 17.352 c -3.816,3.096 -8.568,4.608 -14.328,4.608 -4.32,0 -8.208,-0.936 -11.664,-2.88 -3.456,-1.944 -6.192,-4.608 -8.208,-7.992 -2.016,-3.384 -2.952,-7.128 -2.952,-11.304 0,-4.176 0.936,-7.92 2.952,-11.304 1.944,-3.384 4.68,-6.048 8.136,-7.992 3.456,-1.872 7.416,-2.88 11.736,-2.88 3.168,0 6.048,0.504 8.64,1.44 2.592,0.936 4.968,2.448 7.128,4.536 l 2.304,-2.448 c -2.232,-2.232 -4.896,-3.96 -7.992,-5.112 -3.096,-1.152 -6.48,-1.8 -10.152,-1.8 -5.04,0 -9.576,1.152 -13.608,3.312 -4.032,2.232 -7.128,5.256 -9.432,9.144 -2.304,3.888 -3.384,8.28 -3.384,13.104 0,4.896 1.08,9.216 3.384,13.104 2.304,3.888 5.4,6.984 9.432,9.144 4.032,2.232 8.496,3.312 13.536,3.312 3.456,0 6.768,-0.504 9.936,-1.656 3.168,-1.08 5.832,-2.664 8.064,-4.824 V 384.22 Z"
+         style="font-variant-ligatures:none;fill:#74b885"
+         id="path182400" /><path
+         d="m 600.92,381.98 h -32.616 v 3.24 h 32.616 z m 0,-23.184 h -32.616 v 3.312 h 32.616 z m -32.616,47.088 v 3.312 h 32.616 v -3.312 z"
+         style="font-variant-ligatures:none;fill:#79ad87"
+         id="path182402" /><path
+         d="m 677.57,358.8 h -3.672 v 43.776 l -34.27,-43.78 h -3.096 v 50.4 h 3.672 V 365.42 l 34.344,43.776 h 3.024 z"
+         style="font-variant-ligatures:none;fill:#7fa288"
+         id="path182404" /><path
+         d="m 733.74,358.8 v 50.4 h 3.672 v -50.4 z"
+         style="font-variant-ligatures:none;fill:#85968a"
+         id="path182406" /><path
+         d="m 784.62,362.11 v 47.09 h 3.672 v -47.088 h 18.144 v -3.31 h -39.96 v 3.312 z"
+         style="font-variant-ligatures:none;fill:#8b8b8b"
+         id="path182408" /></g></g></svg>
