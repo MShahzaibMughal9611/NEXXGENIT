@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg111"
+   xml:space="preserve"
+   viewBox="0 0 1024 768"
+   y="0px"
+   x="0px"
+   version="1.1"><metadata
+     id="metadata117"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+     id="defs115" /><style
+     id="style2">
+.bubbles circle {
+  stroke: #5ce57f;
+  fill: none;
+}
+.bubbles &gt; g &gt; g:nth-of-type(3n) circle {
+  stroke: #6cc783;
+}
+.bubbles &gt; g &gt; g:nth-of-type(4n) circle {
+  stroke: #7ba987;
+}
+
+.bubbles-large {
+  overflow: visible;
+}
+.bubbles-large &gt; g {
+  -webkit-transform: translateY(1500px);
+          transform: translateY(1500px);
+  opacity: 0;
+  will-change: transform, opacity;
+}
+.bubbles-large g:nth-of-type(1) {
+  -webkit-animation: up 6.5s infinite;
+          animation: up 6.5s infinite;
+}
+.bubbles-large g:nth-of-type(1) g {
+  -webkit-transform: translateX(350px);
+          transform: translateX(350px);
+}
+.bubbles-large g:nth-of-type(1) circle {
+  -webkit-animation: wobble 3s infinite ease-in-out;
+          animation: wobble 3s infinite ease-in-out;
+}
+.bubbles-large g:nth-of-type(2) {
+  -webkit-animation: up 5.25s 250ms infinite;
+          animation: up 5.25s 250ms infinite;
+}
+.bubbles-large g:nth-of-type(2) g {
+  -webkit-transform: translateX(450px);
+          transform: translateX(450px);
+}
+.bubbles-large g:nth-of-type(2) circle {
+  -webkit-animation: wobble 3s infinite ease-in-out;
+          animation: wobble 3s infinite ease-in-out;
+}
+.bubbles-large g:nth-of-type(3) {
+  -webkit-animation: up 6s 750ms infinite;
+          animation: up 6s 750ms infinite;
+}
+.bubbles-large g:nth-of-type(3) g {
+  -webkit-transform: translateX(700px);
+          transform: translateX(700px);
+}
+.bubbles-large g:nth-of-type(3) circle {
+  -webkit-animation: wobble 3s infinite ease-in-out;
+          animation: wobble 3s infinite ease-in-out;
+}
+.bubbles-large g:nth-of-type(4) {
+  -webkit-animation: up 5.5s 1.5s infinite;
+          animation: up 5.5s 1.5s infinite;
+}
+.bubbles-large g:nth-of-type(4) g {
+  -webkit-transform: translateX(500px);
+          transform: translateX(500px);
+}
+.bubbles-large g:nth-of-type(4) circle {
+  -webkit-animation: wobble 3s infinite ease-in-out;
+          animation: wobble 3s infinite ease-in-out;
+}
+.bubbles-large g:nth-of-type(5) {
+  -webkit-animation: up 6.5s 4s infinite;
+          animation: up 6.5s 4s infinite;
+}
+.bubbles-large g:nth-of-type(5) g {
+  -webkit-transform: translateX(675px);
+          transform: translateX(675px);
+}
+.bubbles-large g:nth-of-type(5) circle {
+  -webkit-animation: wobble 3s infinite ease-in-out;
+          animation: wobble 3s infinite ease-in-out;
+}
+
+.bubbles-small {
+  overflow: visible;
+}
+.bubbles-small &gt; g {
+  -webkit-transform: translateY(1400px);
+          transform: translateY(1400px);
+  opacity: 0;
+  will-change: transform, opacity;
+}
+.bubbles-small g circle {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+.bubbles-small g:nth-of-type(1) {
+  -webkit-animation: up 5.25s infinite;
+          animation: up 5.25s infinite;
+}
+.bubbles-small g:nth-of-type(1) g {
+  -webkit-transform: translateX(350px);
+          transform: translateX(350px);
+}
+.bubbles-small g:nth-of-type(1) circle {
+  -webkit-animation: wobble 3s infinite ease-in-out;
+          animation: wobble 3s infinite ease-in-out;
+}
+.bubbles-small g:nth-of-type(2) {
+  -webkit-animation: up 5.75s infinite;
+          animation: up 5.75s infinite;
+}
+.bubbles-small g:nth-of-type(2) g {
+  -webkit-transform: translateX(750px);
+          transform: translateX(750px);
+}
+.bubbles-small g:nth-of-type(2) circle {
+  -webkit-animation: wobble 3s infinite ease-in-out;
+          animation: wobble 3s infinite ease-in-out;
+}
+.bubbles-small g:nth-of-type(3) {
+  -webkit-animation: up 5.25s 250ms infinite;
+          animation: up 5.25s 250ms infinite;
+}
+.bubbles-small g:nth-of-type(3) g {
+  -webkit-transform: translateX(350px);
+          transform: translateX(350px);
+}
+.bubbles-small g:nth-of-type(3) circle {
+  -webkit-animation: wobble 3s 250ms infinite ease-in-out;
+          animation: wobble 3s 250ms infinite ease-in-out;
+}
+.bubbles-small g:nth-of-type(4) {
+  -webkit-animation: up 5.75s 325ms infinite;
+          animation: up 5.75s 325ms infinite;
+}
+.bubbles-small g:nth-of-type(4) g {
+  -webkit-transform: translateX(180px);
+          transform: translateX(180px);
+}
+.bubbles-small g:nth-of-type(4) circle {
+  -webkit-animation: wobble 3s 325ms infinite ease-in-out;
+          animation: wobble 3s 325ms infinite ease-in-out;
+}
+.bubbles-small g:nth-of-type(5) {
+  -webkit-animation: up 6s 125ms infinite;
+          animation: up 6s 125ms infinite;
+}
+.bubbles-small g:nth-of-type(5) g {
+  -webkit-transform: translateX(350px);
+          transform: translateX(350px);
+}
+.bubbles-small g:nth-of-type(5) circle {
+  -webkit-animation: wobble 3s 250ms infinite ease-in-out;
+          animation: wobble 3s 250ms infinite ease-in-out;
+}
+.bubbles-small g:nth-of-type(6) {
+  -webkit-animation: up 5.13s 250ms infinite;
+          animation: up 5.13s 250ms infinite;
+}
+.bubbles-small g:nth-of-type(6) g {
+  -webkit-transform: translateX(650px);
+          transform: translateX(650px);
+}
+.bubbles-small g:nth-of-type(6) circle {
+  -webkit-animation: wobble 3s 125ms infinite ease-in-out;
+          animation: wobble 3s 125ms infinite ease-in-out;
+}
+.bubbles-small g:nth-of-type(7) {
+  -webkit-animation: up 6.25s 350ms infinite;
+          animation: up 6.25s 350ms infinite;
+}
+.bubbles-small g:nth-of-type(7) g {
+  -webkit-transform: translateX(480px);
+          transform: translateX(480px);
+}
+.bubbles-small g:nth-of-type(7) circle {
+  -webkit-animation: wobble 3s 325ms infinite ease-in-out;
+          animation: wobble 3s 325ms infinite ease-in-out;
+}
+.bubbles-small g:nth-of-type(8) {
+  -webkit-animation: up 7s 200ms infinite;
+          animation: up 7s 200ms infinite;
+}
+.bubbles-small g:nth-of-type(8) g {
+  -webkit-transform: translateX(330px);
+          transform: translateX(330px);
+}
+.bubbles-small g:nth-of-type(8) circle {
+  -webkit-animation: wobble 3s 325ms infinite ease-in-out;
+          animation: wobble 3s 325ms infinite ease-in-out;
+}
+.bubbles-small g:nth-of-type(9) {
+  -webkit-animation: up 6.25s 233ms infinite;
+          animation: up 6.25s 233ms infinite;
+}
+.bubbles-small g:nth-of-type(9) g {
+  -webkit-transform: translateX(230px);
+          transform: translateX(230px);
+}
+.bubbles-small g:nth-of-type(9) circle {
+  -webkit-animation: wobble 3s 275ms infinite ease-in-out;
+          animation: wobble 3s 275ms infinite ease-in-out;
+}
+.bubbles-small g:nth-of-type(10) {
+  -webkit-animation: up 6s 900ms infinite;
+          animation: up 6s 900ms infinite;
+}
+.bubbles-small g:nth-of-type(10) g {
+  -webkit-transform: translateX(730px);
+          transform: translateX(730px);
+}
+.bubbles-small g:nth-of-type(10) circle {
+  -webkit-animation: wobble 2s 905ms infinite ease-in-out;
+          animation: wobble 2s 905ms infinite ease-in-out;
+}
+
+@-webkit-keyframes wobble {
+  33% {
+    -webkit-transform: translateX(-50px);
+            transform: translateX(-50px);
+  }
+  66% {
+    -webkit-transform: translateX(50px);
+            transform: translateX(50px);
+  }
+}
+
+@keyframes wobble {
+  33% {
+    -webkit-transform: translateX(-50px);
+            transform: translateX(-50px);
+  }
+  66% {
+    -webkit-transform: translateX(50px);
+            transform: translateX(50px);
+  }
+}
+
+@-webkit-keyframes up {
+  0% {
+    opacity: 0;
+  }
+  10%, 90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(-768px);
+            transform: translateY(-768px);
+  }
+}
+@keyframes up {
+  0% {
+    opacity: 0;
+  }
+  10%, 90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(-768px);
+            transform: translateY(-768px);
+  }
+}
+
+</style><g
+     id="g98"
+     transform="translate(150)"
+     class="bubbles"><g
+       style="overflow:visible;stroke-width:7"
+       id="g34"
+       class="bubbles-large"><g
+         style="opacity:0"
+         id="g8"><g
+           id="g6"
+           transform="translate(10,940)"><path
+             id="circle4"
+             d="M 70,35 A 35,35 0 0 1 35,70 35,35 0 0 1 0,35 35,35 0 0 1 35,0 35,35 0 0 1 70,35 Z"
+             style="fill:none;stroke:#5ce57f" /></g></g><g
+         style="opacity:0"
+         id="g14"><g
+           id="g12"
+           transform="translate(373,940)"><path
+             id="circle10"
+             d="M 70,35 A 35,35 0 0 1 35,70 35,35 0 0 1 0,35 35,35 0 0 1 35,0 35,35 0 0 1 70,35 Z"
+             style="fill:none;stroke:#5ce57f" /></g></g><g
+         style="opacity:0"
+         id="g20"><g
+           id="g18"
+           transform="translate(408,940)"><path
+             id="circle16"
+             d="M 70,35 A 35,35 0 0 1 35,70 35,35 0 0 1 0,35 35,35 0 0 1 35,0 35,35 0 0 1 70,35 Z"
+             style="fill:none;stroke:#5ce57f" /></g></g><g
+         style="opacity:0"
+         id="g26"><g
+           id="g24"
+           transform="translate(621,940)"><path
+             id="circle22"
+             d="M 70,35 A 35,35 0 0 1 35,70 35,35 0 0 1 0,35 35,35 0 0 1 35,0 35,35 0 0 1 70,35 Z"
+             style="fill:none;stroke:#5ce57f" /></g></g><g
+         style="opacity:0"
+         id="g32"><g
+           id="g30"
+           transform="translate(179,940)"><path
+             id="circle28"
+             d="M 70,35 A 35,35 0 0 1 35,70 35,35 0 0 1 0,35 35,35 0 0 1 35,0 35,35 0 0 1 70,35 Z"
+             style="fill:none;stroke:#5ce57f" /></g></g></g><g
+       style="overflow:visible;stroke-width:4"
+       id="g96"
+       class="bubbles-small"><g
+         style="opacity:0"
+         id="g40"><g
+           id="g38"
+           transform="translate(147,984)"><path
+             id="circle36"
+             d="M 30,15 A 15,15 0 0 1 15,30 15,15 0 0 1 0,15 15,15 0 0 1 15,0 15,15 0 0 1 30,15 Z"
+             style="fill:none;stroke:#5ce57f" /></g></g><g
+         style="opacity:0"
+         id="g46"><g
+           id="g44"
+           transform="translate(255,984)"><path
+             id="circle42"
+             d="M 30,15 A 15,15 0 0 1 15,30 15,15 0 0 1 0,15 15,15 0 0 1 15,0 15,15 0 0 1 30,15 Z"
+             style="fill:none;stroke:#5ce57f" /></g></g><g
+         style="opacity:0"
+         id="g52"><g
+           id="g50"
+           transform="translate(573,984)"><path
+             id="circle48"
+             d="M 30,15 A 15,15 0 0 1 15,30 15,15 0 0 1 0,15 15,15 0 0 1 15,0 15,15 0 0 1 30,15 Z"
+             style="fill:none;stroke:#5ce57f" /></g></g><g
+         style="opacity:0"
+         id="g58"><g
+           id="g56"
+           transform="translate(429,984)"><path
+             id="circle54"
+             d="M 30,15 A 15,15 0 0 1 15,30 15,15 0 0 1 0,15 15,15 0 0 1 15,0 15,15 0 0 1 30,15 Z"
+             style="fill:none;stroke:#5ce57f" /></g></g><g
+         style="opacity:0"
+         id="g64"><g
+           id="g62"
+           transform="translate(91,984)"><path
+             id="circle60"
+             d="M 30,15 A 15,15 0 0 1 15,30 15,15 0 0 1 0,15 15,15 0 0 1 15,0 15,15 0 0 1 30,15 Z"
+             style="fill:none;stroke:#5ce57f" /></g></g><g
+         style="opacity:0"
+         id="g70"><g
+           id="g68"
+           transform="translate(640,984)"><path
+             id="circle66"
+             d="M 30,15 A 15,15 0 0 1 15,30 15,15 0 0 1 0,15 15,15 0 0 1 15,0 15,15 0 0 1 30,15 Z"
+             style="fill:none;stroke:#5ce57f" /></g></g><g
+         style="opacity:0"
+         id="g76"><g
+           id="g74"
+           transform="translate(321,984)"><path
+             id="circle72"
+             d="M 30,15 A 15,15 0 0 1 15,30 15,15 0 0 1 0,15 15,15 0 0 1 15,0 15,15 0 0 1 30,15 Z"
+             style="fill:none;stroke:#5ce57f" /></g></g><g
+         style="opacity:0"
+         id="g82"><g
+           id="g80"
+           transform="translate(376,984)"><path
+             id="circle78"
+             d="M 30,15 A 15,15 0 0 1 15,30 15,15 0 0 1 0,15 15,15 0 0 1 15,0 15,15 0 0 1 30,15 Z"
+             style="fill:none;stroke:#5ce57f" /></g></g><g
+         style="opacity:0"
+         id="g88"><g
+           id="g86"
+           transform="translate(376,984)"><path
+             id="circle84"
+             d="M 30,15 A 15,15 0 0 1 15,30 15,15 0 0 1 0,15 15,15 0 0 1 15,0 15,15 0 0 1 30,15 Z"
+             style="fill:none;stroke:#5ce57f" /></g></g><g
+         style="opacity:0"
+         id="g94"><g
+           id="g92"
+           transform="translate(497,984)"><path
+             id="circle90"
+             d="M 30,15 A 15,15 0 0 1 15,30 15,15 0 0 1 0,15 15,15 0 0 1 15,0 15,15 0 0 1 30,15 Z"
+             style="fill:none;stroke:#5ce57f" /></g></g></g></g><g
+     id="fade"><g
+       style="stroke-width:0;stroke-miterlimit:2"
+       stroke-miterlimit="2"
+       id="logo-group"><path
+         d="m 258.6,358.8 h -3.672 v 43.776 L 220.656,358.8 h -3.096 v 50.4 h 3.672 v -43.776 l 34.344,43.776 h 3.024 z"
+         style="font-variant-ligatures:none;fill:#5ce57f"
+         id="path182392" /><path
+         d="m 328.82,381.98 h -32.616 v 3.24 h 32.616 z m 0,-23.184 h -32.616 v 3.312 h 32.616 z m -32.616,47.088 v 3.312 h 32.616 v -3.312 z"
+         style="font-variant-ligatures:none;fill:#62da81"
+         id="path182394" /><path
+         d="m 395.34,409.2 h 4.32 l -19.368,-26.064 18,-24.336 h -4.104 L 378.132,380.472 362.076,358.8 h -4.32 l 18,24.408 -19.368,25.992 h 4.32 l 17.28,-23.328 z"
+         style="font-variant-ligatures:none;fill:#68cf82"
+         id="path182396" /><path
+         d="m 459.78,409.2 h 4.32 l -19.368,-26.064 18,-24.336 h -4.104 L 442.572,380.472 426.516,358.8 h -4.32 l 18,24.408 -19.368,25.992 h 4.32 l 17.28,-23.328 z"
+         style="font-variant-ligatures:none;fill:#6ec384"
+         id="path182398" /><path
+         d="m 528.61,384.22 v 17.352 c -3.816,3.096 -8.568,4.608 -14.328,4.608 -4.32,0 -8.208,-0.936 -11.664,-2.88 -3.456,-1.944 -6.192,-4.608 -8.208,-7.992 -2.016,-3.384 -2.952,-7.128 -2.952,-11.304 0,-4.176 0.936,-7.92 2.952,-11.304 1.944,-3.384 4.68,-6.048 8.136,-7.992 3.456,-1.872 7.416,-2.88 11.736,-2.88 3.168,0 6.048,0.504 8.64,1.44 2.592,0.936 4.968,2.448 7.128,4.536 l 2.304,-2.448 c -2.232,-2.232 -4.896,-3.96 -7.992,-5.112 -3.096,-1.152 -6.48,-1.8 -10.152,-1.8 -5.04,0 -9.576,1.152 -13.608,3.312 -4.032,2.232 -7.128,5.256 -9.432,9.144 -2.304,3.888 -3.384,8.28 -3.384,13.104 0,4.896 1.08,9.216 3.384,13.104 2.304,3.888 5.4,6.984 9.432,9.144 4.032,2.232 8.496,3.312 13.536,3.312 3.456,0 6.768,-0.504 9.936,-1.656 3.168,-1.08 5.832,-2.664 8.064,-4.824 V 384.22 Z"
+         style="font-variant-ligatures:none;fill:#74b885"
+         id="path182400" /><path
+         d="m 600.92,381.98 h -32.616 v 3.24 h 32.616 z m 0,-23.184 h -32.616 v 3.312 h 32.616 z m -32.616,47.088 v 3.312 h 32.616 v -3.312 z"
+         style="font-variant-ligatures:none;fill:#79ad87"
+         id="path182402" /><path
+         d="m 677.57,358.8 h -3.672 v 43.776 l -34.27,-43.78 h -3.096 v 50.4 h 3.672 V 365.42 l 34.344,43.776 h 3.024 z"
+         style="font-variant-ligatures:none;fill:#7fa288"
+         id="path182404" /><path
+         d="m 733.74,358.8 v 50.4 h 3.672 v -50.4 z"
+         style="font-variant-ligatures:none;fill:#85968a"
+         id="path182406" /><path
+         d="m 784.62,362.11 v 47.09 h 3.672 v -47.088 h 18.144 v -3.31 h -39.96 v 3.312 z"
+         style="font-variant-ligatures:none;fill:#8b8b8b"
+         id="path182408" /></g></g></svg>
